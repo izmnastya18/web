@@ -1,0 +1,198 @@
+h1{
+    text-align: center;
+}
+h1::before{    
+    position: absolute;
+    content: '';
+    width: 7vmax;
+    height: 3px;
+    background-color: red;
+    left: 46.3vmax;
+    top: 0.8vmax;
+}
+h1::after{
+    position: absolute;
+    content: '';
+    width: 7vmax;
+    height: 3px;
+    background-color: red;
+    left: 46.3vmax;
+    top: 4.5vmax;
+}
+.border-1{
+    position: absolute;
+    top: 8.3vmax;
+    left: 41.5vmax;
+    width: 15.5vmax;
+    height: 18vmax;
+    border: 2px solid white;
+    color: wheat;
+    text-align: center;   
+}
+.woman{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: white;
+}
+.Women{
+    margin-left: 0vmax;
+    margin-top: 0vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+    opacity: 0.4;
+
+}
+.watches{
+    float: right;
+    margin-top: 0vmax;
+    margin-right: 0vmax;
+    width: 18.5vmax;
+    height: 19.5vmax;
+    opacity: 0.5;
+}
+.Watches{
+    position: absolute;
+    width: 16.5vmax;
+    height: 18vmax;
+    border: 2px solid white;
+    top: 8.3vmax;
+    right: 22.2vmax;
+    text-align: center;
+}
+.watch{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: white;
+}
+.Man{
+    float: left;
+    margin-left: 0vmax;
+    margin-top: 0vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+    opacity: 0.5;
+}
+.man-border{
+    position: absolute;
+    width: 15.5vmax;
+    height: 18vmax;
+    border: 2px solid white;
+    top: 8.3vmax;
+    left: 23vmax;
+    text-align: center;
+}
+.Men{
+    font-size: 2vmax;
+    position: relative;
+    top: 8vmax;
+    color: rgb(255, 255, 255);
+}
+.WomenMen{
+    margin-left: 0vmax;
+    margin-top: 0vmax;
+    height: 19vmax;
+    width: 27.5vmax;
+    opacity: 0.3;
+}
+.new{
+    position: relative;
+    bottom: 13.6vmax;
+    margin-left: 21.9vmax;
+    font-size: 1.7vmax;
+    font-weight: bold;
+    width: 322px;
+    text-align: center;
+    color:white;
+    z-index: 1111;
+}
+.new::before{
+    position: absolute;
+    bottom: 6.5vmax;
+    left: 7vmax;
+    content: '';
+    width: 7.5vmax;
+    height: 0.1vmax;
+    background-color: white;
+}
+.sale{
+    position: relative;
+    bottom: 0vmax;
+    left: 0vmax;
+    height: 19vmax;
+    width: 27.0vmax;
+    opacity: 0.3;
+    margin-top: 0vmax;
+}
+.collection{
+    position: absolute;
+    top: 34vmax;
+    right: 23vmax;
+    font-size: 1.7vmax;
+    font-weight: bold;
+    width: 322px;
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+.collection::before{
+    position: absolute;
+    bottom: 6.3vmax;
+    left: 6.7vmax;
+    content: '';
+    width: 7.0vmax;
+    height: 2px;
+    background-color: white;
+}
+.girl{
+    content: '';
+    float: center;
+    margin-left: 37.5vmax;
+    margin-top: 4.85vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+    background-color: black;
+    z-index: 1;
+    margin-bottom: 1.3vmax;
+}
+.time{
+    content: '';
+    float: right;
+    margin-top: -20.8vmax;
+    margin-right: 18.2vmax;
+    width: 18.5vmax;
+    height: 19.5vmax;
+    background-color: black;
+    z-index: 1;
+}
+.boy{
+    content: '';
+    float: left;
+    margin-left: 19.0vmax;
+    margin-top: -20.8vmax;
+    height: 19.5vmax;
+    width: 17.5vmax;
+    background-color: black;
+    z-index: 1;
+}
+.WomenBoy {
+    content: '';
+    margin-left: 19vmax;
+    margin-top: -0.7vmax;
+    height: 19vmax;
+    width: 27.5vmax;
+    background-color: black;
+    z-index: 1;
+}
+.price {
+    content: '';
+    position: relative;
+    bottom: 28.2vmax;
+    left: 47.5vmax;
+    height: 19vmax;
+    width: 27.0vmax;
+    background-color: black;
+    z-index: 1;
+
+}
